@@ -1,0 +1,30 @@
+{
+  "name": "namaste",
+  "version": "1.0.0",
+  "description": "we are learing react",
+  "scripts": {
+    "start": "parcel index.html", 
+    "build": "parcel build Ep4/index.html",
+    "test": "darkhorse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkundantech/ReactLearn.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kundan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkundantech/ReactLearn/issues"
+  },
+  "homepage": "https://github.com/kkundantech/ReactLearn#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

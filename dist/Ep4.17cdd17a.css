@@ -1,0 +1,49 @@
+.Header {
+  background-color: beige;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items > ul {
+  padding: right;
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-con {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card {
+  background-color: silver;
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 2px, solid, black;
+}
+
+.res-logo {
+  width: 200px;
+}
+/*# sourceMappingURL=Ep4.17cdd17a.css.map */
