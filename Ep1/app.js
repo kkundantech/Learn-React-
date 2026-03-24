@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // createElement --> it is a method which is use to create the react element
@@ -60,7 +60,8 @@ root.render(heading1); */
 /*
 const heading1 = React.createElement("div" ,{id:"parent"},
     React.createElement("div" , {id:"child"},
-        [React.createElement("h1" , {} , "Jai Shree Ram"), React.createElement("h2" , {} , "Jai Shree Ram")]
+        [React.createElement("h1" , {} , "Jai Shree Ram"), React.createElement("h2" , {} , "Jai Shree Ram")] //  we have to pass it  into the array 
+
     )
 )
 
